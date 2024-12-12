@@ -6,7 +6,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task1.V12.Lib {
     public class DataService : ISprint5Task1V12 {
         public string SaveToFileTextData(int startValue, int stopValue)
         {
-            string fullPath = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask0.txt" });
+            string fullPath = Path.Combine(new string[] { Path.GetTempPath(), "OutPutFileTask1.txt" });
 
             FileInfo fileInfo = new FileInfo(fullPath);
             bool fileExists = fileInfo.Exists;
