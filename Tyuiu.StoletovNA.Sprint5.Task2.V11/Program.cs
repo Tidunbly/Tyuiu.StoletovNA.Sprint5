@@ -42,7 +42,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task2.V11 {
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    Console.WriteLine($"{matr[i, j]} \t");
+                    Console.WriteLine($"{matr[i, j]}");
                     
                 }
                 Console.WriteLine();

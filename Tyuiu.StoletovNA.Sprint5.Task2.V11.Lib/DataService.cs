@@ -19,15 +19,15 @@ namespace Tyuiu.StoletovNA.Sprint5.Task2.V11.Lib {
             int rows = 3;
             int cols = 3;
 
-            int[,] matr = new int[rows, cols];
+            
 
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
-                    if (matr[i, j] % 2 != 0)
+                    if (matrix[i, j] % 2 != 0)
                     {
-                        matr[i, j] = 0;
+                        matrix[i, j] = 0;
                     }
                 }
             }
@@ -41,11 +41,11 @@ namespace Tyuiu.StoletovNA.Sprint5.Task2.V11.Lib {
                 {
                     if (j != cols - 1)
                     {
-                        str += matr[i, j] + ";";
+                        str += matrix[i, j] + ";";
                     }
                     else
                     {
-                        str += matr[i, j];  
+                        str += matrix[i, j];  
                     }
                 }
 
