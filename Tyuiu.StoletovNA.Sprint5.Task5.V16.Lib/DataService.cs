@@ -14,7 +14,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task5.V16.Lib {
             foreach (string number in numbers)
             {
                 double x = Convert.ToDouble(number.Replace('.', ','));
-                if (x % 10 == 0)
+                if (x % 10 == 0 & x != 0)
                 {
                     if (maxValue < x)
                     {
