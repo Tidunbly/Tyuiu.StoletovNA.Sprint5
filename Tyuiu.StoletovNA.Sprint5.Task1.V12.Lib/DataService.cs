@@ -27,6 +27,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task1.V12.Lib {
                 if (r2 == 0)
                 {
                     y = 0;
+                    y = Math.Round(y);
                     strY = Convert.ToString(y);
                 }
                 else
@@ -36,7 +37,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task1.V12.Lib {
                 }
 
 
-                if (x != startValue)
+                if (x != stopValue)
                 {
                     File.AppendAllText(fullPath, strY + Environment.NewLine);
                 }
