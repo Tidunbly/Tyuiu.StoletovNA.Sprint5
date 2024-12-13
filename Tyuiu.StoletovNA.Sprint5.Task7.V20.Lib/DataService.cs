@@ -16,12 +16,6 @@ namespace Tyuiu.StoletovNA.Sprint5.Task7.V20.Lib {
                     result.Append('с');
                     i++;
                 }
-                
-                else if (i < input.Length - 1 && input[i] == 'С' && input[i + 1] == 'с')
-                {
-                    result.Append('С');
-                    i++; 
-                }
                 else
                 {
                     result.Append(input[i]);
@@ -30,6 +24,7 @@ namespace Tyuiu.StoletovNA.Sprint5.Task7.V20.Lib {
 
             return result.ToString();
         }
+
 
 
         public string LoadDataAndSave(string path)
